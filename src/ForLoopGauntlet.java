@@ -8,6 +8,9 @@ public class ForLoopGauntlet {
 		loop6();
 		loop7();
 		loop8();
+		loop9();
+		loop10();
+		loop11();
 	}
 
 	public static void loop1() {
@@ -64,9 +67,35 @@ public class ForLoopGauntlet {
 	public static void loop8() {
 		for (int z = 0; z < 4; z++) {
 			for (int i = 0; i < 3; i++) {
-
+				for (int u = 0; u < 3; u++){
+					System.out.print(i);
+					System.out.println(u);
 			}
+		
 		}
 
+	}
+	}
+	
+	public static void loop9() {
+		for (int z = 0; z < 7; z+=3) {
+			for (int i = 1; i < 4; i++) {
+				System.out.print(i + z);
+			}	
+			System.out.println();
+		}
+		
+	}
+	
+	public static void loop10() {
+		for (int i = 0; i < )
+	}
+	public static void loop11() {
+		String asterisk = "*";
+		for (int i = 0; i < 6; i++) {
+			for (int z = 0; z < 7; z++) {
+				System.out.print(asterisk);
+			}
+		}
 	}
 }

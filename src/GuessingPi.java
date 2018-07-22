@@ -33,7 +33,8 @@ public class GuessingPi {
 				// yourStringVariable.length()
 
 				// 5. Ask the user for the NEXT digit of pi.
-				if (guess.equals(pi.charAt(u))) {
+				if (guess.equals(pi.charAt(u) + "")) {
+				
 					JOptionPane.showMessageDialog(null, "correct");
 				}
 				// 6. Compare the user's input to the next digit of your pi variable
