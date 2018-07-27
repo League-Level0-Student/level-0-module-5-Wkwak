@@ -87,15 +87,21 @@ public class ForLoopGauntlet {
 		
 	}
 	
-	public static void loop10() {
-		for (int i = 0; i < )
-	}
-	public static void loop11() {
-		String asterisk = "*";
-		for (int i = 0; i < 6; i++) {
-			for (int z = 0; z < 7; z++) {
-				System.out.print(asterisk);
+		public static void loop10() {
+			for (int i = 0; i <100; i+=10 ) {
+				for (int u = 1; u<11; u++) {
+					System.out.print(u + i + " ");
+				}
+				System.out.println();
 			}
 		}
-	}
+		public static void loop11() {
+			String asterisk = "*";
+			for (int i = 1; i < 7; i++) {
+				for (int z = 0; z < i; z++) {
+					System.out.print(asterisk);
+				}
+				System.out.println();
+			}
+		}
 }
